@@ -55,19 +55,19 @@ string select(string func_type){
     string out = "";
 
     if (func_type == "sum"){
-        out = "The sum is"; 
+        out = "The sum is "; 
     }
         
     else if (func_type == "division"){
-         out = "The quotient is";
+         out = "The quotient is ";
     }
 
     else if (func_type == "comparison"){
-        out = "The greater value is";
+        out = "The first value being greater than the second value is ";
     }
 
     else{
-        out = "Invalid";
+        out = "Invalid function type\n ";
     }
 
     return out;
